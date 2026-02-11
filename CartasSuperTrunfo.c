@@ -7,6 +7,7 @@
 int main() {
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
+  /*aqui estão as variáveis que armazenarão os valores de cada carta, as variáveis sem número no nome representam a carta 1, e as com número 2 representam a carta 2.*/
     char estado, estado2;
     char codigoCarta[4], codigoCarta2[4];    
     char cidade[30], cidade2[30];
@@ -18,7 +19,8 @@ int main() {
     int ptsturisticos, ptsturisticos2;
 
   // Área para entrada de dados
-
+  //apresentação e preenchimento da carta 1
+     /*aqui o usuário será instruído a digitar o que se deve enviar para o programa*/
     printf("Para participar do jogo de Super Trunfo, digite o que se pede sobre as cartas: \n");
     
     printf("Carta 01:\n");
